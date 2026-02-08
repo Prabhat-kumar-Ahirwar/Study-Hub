@@ -1,49 +1,22 @@
-# ========================
-# Node / React frontend
-# ========================
-
-# dependencies
-node_modules/
-npm-debug.log
-yarn-error.log
-package-lock.json
-yarn.lock
-
-# production build
-build/
-
-# dotenv environment variables
+# ===============================
+# Global
+# ===============================
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# IDE / editor files
-.vscode/
-.idea/
-.DS_Store
-
-# ========================
-# Java / Spring Boot backend
-# ========================
-
-# compiled class files
-*.class
-
-# build folders
-target/
-out/
-
-# Maven / Gradle logs
 *.log
-*.war
-*.jar
+node_modules/
 
-# dotenv environment variables
-.env
+# ===============================
+# Backend
+# ===============================
+study-share-backend/target/
 
-# IDE / editor files
-*.iml
-*.ipr
-*.iws
+# ===============================
+# Frontend
+# ===============================
+study-share-frontend/dist/
+
+# ===============================
+# IDE
+# ===============================
+.idea/
+.vscode/
