@@ -1,18 +1,14 @@
-# ===============================
-# Environment Variables (Secrets)
-# ===============================
-.env
 
-# ===============================
+# Environment Variables (Secrets)
+
+.env
 # Maven / Spring Boot
-# ===============================
+
 /target/
 HELP.md
 .mvn/wrapper/maven-wrapper.jar
 
-# ===============================
 # STS (Spring Tool Suite)
-# ===============================
 .apt_generated
 .classpath
 .factorypath
@@ -29,9 +25,6 @@ HELP.md
 *.iml
 *.ipr
 
-# ===============================
-# NetBeans
-# ===============================
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -39,12 +32,8 @@ HELP.md
 /.nb-gradle/
 build/
 
-# ===============================
-# VS Code
-# ===============================
 .vscode/
-
-# ===============================
-# Logs
-# ===============================
 *.log
+
+# Spring Boot config (avoid committing secrets)
+src/main/resources/application.yaml
