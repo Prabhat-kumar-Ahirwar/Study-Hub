@@ -1,6 +1,6 @@
 # Study-Hub
 
-Study-Hub is a web platform for sharing study resources, managing notes, and collaborating with peers. It is built using [your tech stack, e.g., Spring Boot, React, MySQL].
+Study-Hub is a web platform for sharing study resources, managing notes, and collaborating with peers. It is built using Spring Boot, Spring Security, React, MongoDB.
 
 ---
 
@@ -10,16 +10,20 @@ Study-Hub is a web platform for sharing study resources, managing notes, and col
 ![Home Page](screenshots/landing.png)
 
 ### Dashboard
-![Dashboard](screenshots/Dashboard.png)
+![Dashboard](screenshots/Dashboard1.png)
+![Dashboard](screenshots/Dashboard2.png)
 
-### Login / Signup
+### Login 
 ![Login Page](screenshots/Login.png)
 
-### Resource Sharing
-![Resource Sharing](screenshots/resources.png)
+### Signup 
+![SignUp Page](screenshots/Register.png)
 
-### Profile Page
-![Profile Page](screenshots/profile.png)
+### Resource Sharing
+![Resource Sharing](screenshots/Material.png)
+
+### Upload Page
+![Upload Page](screenshots/upload.png)
 
 ---
 
@@ -32,14 +36,3 @@ Study-Hub is a web platform for sharing study resources, managing notes, and col
 - Responsive design
 
 ---
-
-## ⚙️ Tech Stack
-
-- Backend: Spring Boot
-- Frontend: React / Thymeleaf (replace if different)
-- Database: MySQL / PostgreSQL (replace if different)
-- Deployment: [Vercel / Railway / Heroku] (replace with your platform)
-
----
-
-## 📂 Repository Structure
