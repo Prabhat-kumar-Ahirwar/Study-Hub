@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: study-share-backend
+
+  data:
+    mongodb:
+      uri: ${MONGO_URI}
+
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  mail:
+    host: smtp-relay.brevo.com
+    port: 587
+    username: ${MAIL_USERNAME}
+    password: ${MAIL_PASSWORD}
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    from: ${MAIL_FROM}
+
+admin:
+  email: ${ADMIN_EMAIL}
+
+server:
+  port: ${PORT:8080}
